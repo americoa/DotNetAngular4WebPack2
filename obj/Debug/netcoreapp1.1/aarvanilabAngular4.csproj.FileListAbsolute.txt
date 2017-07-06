@@ -1,0 +1,8 @@
+/Users/americoarvani/Desktop/Angular/aarvanilabAngular4/bin/Debug/netcoreapp1.1/aarvanilabAngular4.deps.json
+/Users/americoarvani/Desktop/Angular/aarvanilabAngular4/bin/Debug/netcoreapp1.1/aarvanilabAngular4.runtimeconfig.json
+/Users/americoarvani/Desktop/Angular/aarvanilabAngular4/bin/Debug/netcoreapp1.1/aarvanilabAngular4.runtimeconfig.dev.json
+/Users/americoarvani/Desktop/Angular/aarvanilabAngular4/bin/Debug/netcoreapp1.1/aarvanilabAngular4.dll
+/Users/americoarvani/Desktop/Angular/aarvanilabAngular4/bin/Debug/netcoreapp1.1/aarvanilabAngular4.pdb
+/Users/americoarvani/Desktop/Angular/aarvanilabAngular4/obj/Debug/netcoreapp1.1/aarvanilabAngular4.AssemblyInfo.cs
+/Users/americoarvani/Desktop/Angular/aarvanilabAngular4/obj/Debug/netcoreapp1.1/aarvanilabAngular4.dll
+/Users/americoarvani/Desktop/Angular/aarvanilabAngular4/obj/Debug/netcoreapp1.1/aarvanilabAngular4.pdb
