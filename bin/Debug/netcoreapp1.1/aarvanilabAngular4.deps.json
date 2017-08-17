@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "d206126c02eb4563ffc8718ac813484a16d13953"
+    "signature": "3e42057e5d837ddf238afb2f0eafa9587b7abb61"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
       "aarvanilabangular4/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore": "1.1.1",
+          "Microsoft.AspNetCore.StaticFiles": "1.1.1",
           "Microsoft.NETCore.App": "1.1.1"
         },
         "runtime": {
@@ -280,6 +281,22 @@
           "lib/netstandard1.3/Microsoft.AspNetCore.Server.Kestrel.dll": {}
         }
       },
+      "microsoft.aspnetcore.staticfiles/1.1.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "1.1.1",
+          "Microsoft.AspNetCore.Http.Extensions": "1.1.1",
+          "Microsoft.Extensions.FileProviders.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
+          "Microsoft.Extensions.WebEncoders": "1.1.1",
+          "NETStandard.Library": "1.6.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.StaticFiles.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.StaticFiles.dll": {}
+        }
+      },
       "microsoft.aspnetcore.webutilities/1.1.1": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "1.1.0",
@@ -534,6 +551,20 @@
         },
         "compile": {
           "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "microsoft.extensions.webencoders/1.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Options": "1.1.1",
+          "NETStandard.Library": "1.6.1",
+          "System.Text.Encodings.Web": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.WebEncoders.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.0/Microsoft.Extensions.WebEncoders.dll": {}
         }
       },
       "microsoft.net.http.headers/1.1.1": {
@@ -2492,6 +2523,13 @@
       "path": "microsoft.aspnetcore.server.kestrel/1.1.1",
       "hashPath": "microsoft.aspnetcore.server.kestrel.1.1.1.nupkg.sha512"
     },
+    "microsoft.aspnetcore.staticfiles/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/ME2ow79JmwxXdHnzjJUyCU04Bvp2dA1krOzHKNtCniOBYTP+bFppsPLUryoFYXxmVw2tujBU41t/i6oAR8SGw==",
+      "path": "microsoft.aspnetcore.staticfiles/1.1.1",
+      "hashPath": "microsoft.aspnetcore.staticfiles.1.1.1.nupkg.sha512"
+    },
     "microsoft.aspnetcore.webutilities/1.1.1": {
       "type": "package",
       "serviceable": true,
@@ -2631,6 +2669,13 @@
       "sha512": "sha512-oc10bl5fHbuccRBBfiP5xUN3H0BRS8AYC7olCHoAW5fPKjh+WuVXPVJLSHKFwTv9soVZ7kOBEArqwCIW2jy4FQ==",
       "path": "microsoft.extensions.primitives/1.1.0",
       "hashPath": "microsoft.extensions.primitives.1.1.0.nupkg.sha512"
+    },
+    "microsoft.extensions.webencoders/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NYp3rJSvqeYYv2INglrIy6Cgj9ljQ1b0VTuCNr8v82/KyrtI4qLRkR+4EHwfgv33FlR+V0BJxLbHmDgSwQZS+g==",
+      "path": "microsoft.extensions.webencoders/1.1.1",
+      "hashPath": "microsoft.extensions.webencoders.1.1.1.nupkg.sha512"
     },
     "microsoft.net.http.headers/1.1.1": {
       "type": "package",
