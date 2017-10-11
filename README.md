@@ -2,4 +2,4 @@
 
 Project using Dot Net core (no mvc ) and Angular4 , WebPack2 and Angular CLI AOT compiler
 
-After download use "npm install" to download the nodejs required to run
+After download use "npm install" to get the latest package required to execute the project
